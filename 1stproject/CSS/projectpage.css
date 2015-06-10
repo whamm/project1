@@ -1,6 +1,7 @@
 html{
 
-	font-family: Verdana, Geneva, sans-serif;
+font-family: Verdana, Geneva, sans-serif;
+
 }
 
 body{
@@ -10,7 +11,9 @@ background: url("../notepad.jpg") no-repeat center fixed;
 }
 
 ul {
-	list-style-position: inside
+
+list-style-position: inside
+
 }
 
 .toctext{
@@ -20,26 +23,31 @@ margin-bottom: 50px;
 
 }
 
-.tocheading{
+.header{
 
-	text-align:center;
+text-align:center;
+
 }
 
 .color{
-		border-radius: 20px 20px 20px 20px ;
-		background-color: #FAC924;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 80%;
-}
-.mynotes{
-	margin: auto ;
-	padding: 60px 30px;
-	text-align: center;
-	max-width: 50%;
+
+border-radius: 20px 20px 20px 20px ;
+background-color: #FAC924;
+margin-left: auto;
+margin-right: auto;
+max-width: 80%;
+
 }
 
-.table{
+.mynotes{
+
+margin: auto ;
+padding: 60px 30px;
+text-align: center;
+max-width: 50%;
+}
+
+.nav{
 
 opacity:0.5;
 
@@ -72,6 +80,7 @@ text-align: center;
 width: 60%;
 margin-left: auto;
 margin-right: auto;
+
 }
 
 .misceraser{
